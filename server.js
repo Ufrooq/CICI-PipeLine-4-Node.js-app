@@ -20,7 +20,7 @@ app.use('/api/auth', authRoutes);
 
 // Health check
 app.get('/', (req, res) => {
-    res.json({ message: 'Backend API is and running!' });
+    res.json({ message: 'Backend API is and running! v3' });
 });
 
 // Error handling middleware
